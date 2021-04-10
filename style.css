@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg, #06111C, #1d3557);
+    height: 100vmin;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* text align center pra deixar o pedro lopes no centro */
+/*padding pro pedro nao ficar colado la em cima*/
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+/*position absolute para ela ocupar apenas seu espaço/*
+/*color rgba pra dar tipo uma transparencia /*
+/*top e left, para ficar no meio*/
+/*transform para mudar o eixo e subir pro meio da tela*/
+/*border radius para arredondar as bordas*/ 
+/*padding distancia dos elementos e borda*/
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+    margin: 3px;
+}
+
+/*width largura*/
+/*height altura*/
+/*cursor pointer pra quando passar o mouse, virar maozinha*/
+/*border none para tirar a borda*/
+/*color pra mudar a cor da fonte*/
+/*margin pra margem ficar boa em tudo */
+
+.botao:hover{
+    background-color: black;
+}
+
+/* botao hover pra quando passar o mouse em cima, ficar preto*/
+
+#resultado{
+    background-color: white;
+    width: 207px;
+    color: black;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    text-align: right;
+    padding: 7px;
+}
+
+/*cor e largura do campo onde aparece os resultados*/
